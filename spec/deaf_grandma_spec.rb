@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "DeafGrandma" do
   it "responds with 'HUH?! SPEAK UP SONNY!'" do
-    pending
+
     run_script("deaf_grandma.rb")
     type("Hi, Grandma")
 
@@ -11,7 +11,7 @@ describe "DeafGrandma" do
   end
 
   it "responds with 'NO, NOT SINCE [some year]!' if you shout" do
-    pending
+
     run_script("deaf_grandma.rb")
     type("HI, GRANDMA")
 
@@ -20,7 +20,7 @@ describe "DeafGrandma" do
   end
 
   it "prints random years between 1930 and 1950" do
-    pending
+
     10.times do
       run_script("deaf_grandma.rb")
       type("BLAH")
